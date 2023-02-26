@@ -13,6 +13,10 @@
 		FB9990CB29AB6C7100F2A688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9990C929AB6C7100F2A688 /* Main.storyboard */; };
 		FB9990CD29AB6C7200F2A688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9990CC29AB6C7200F2A688 /* Assets.xcassets */; };
 		FB9990D029AB6C7200F2A688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9990CE29AB6C7200F2A688 /* LaunchScreen.storyboard */; };
+		FBECAF2429AB9D9700D8EED0 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBECAF2329AB9D9700D8EED0 /* WeatherManager.swift */; };
+		FBECAF2829AB9DB600D8EED0 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBECAF2729AB9DB600D8EED0 /* WeatherData.swift */; };
+		FBECAF2A29ABA37B00D8EED0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBECAF2929ABA37B00D8EED0 /* Constants.swift */; };
+		FBF0BE4B29ABB6C000EEFC4D /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF0BE4A29ABB6C000EEFC4D /* WeatherDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		FB9990CC29AB6C7200F2A688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB9990CF29AB6C7200F2A688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB9990D129AB6C7200F2A688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBECAF2329AB9D9700D8EED0 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		FBECAF2729AB9DB600D8EED0 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		FBECAF2929ABA37B00D8EED0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FBF0BE4A29ABB6C000EEFC4D /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,6 @@
 		FB9990C229AB6C7100F2A688 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				FB9990C929AB6C7100F2A688 /* Main.storyboard */,
 				FB9990CE29AB6C7200F2A688 /* LaunchScreen.storyboard */,
 				FB9990D929AB6DE000F2A688 /* Controller */,
 				FB9990D829AB6DDA00F2A688 /* View */,
@@ -72,6 +79,10 @@
 		FB9990D729AB6DCD00F2A688 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FBECAF2329AB9D9700D8EED0 /* WeatherManager.swift */,
+				FBECAF2729AB9DB600D8EED0 /* WeatherData.swift */,
+				FBECAF2929ABA37B00D8EED0 /* Constants.swift */,
+				FBF0BE4A29ABB6C000EEFC4D /* WeatherDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -79,7 +90,7 @@
 		FB9990D829AB6DDA00F2A688 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FB9990C729AB6C7100F2A688 /* WeatherViewController.swift */,
+				FB9990C929AB6C7100F2A688 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -87,6 +98,7 @@
 		FB9990D929AB6DE000F2A688 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FB9990C729AB6C7100F2A688 /* WeatherViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -164,7 +176,11 @@
 			files = (
 				FB9990C829AB6C7100F2A688 /* WeatherViewController.swift in Sources */,
 				FB9990C429AB6C7100F2A688 /* AppDelegate.swift in Sources */,
+				FBF0BE4B29ABB6C000EEFC4D /* WeatherDataModel.swift in Sources */,
+				FBECAF2429AB9D9700D8EED0 /* WeatherManager.swift in Sources */,
 				FB9990C629AB6C7100F2A688 /* SceneDelegate.swift in Sources */,
+				FBECAF2A29ABA37B00D8EED0 /* Constants.swift in Sources */,
+				FBECAF2829AB9DB600D8EED0 /* WeatherData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
