@@ -23,11 +23,11 @@
                             <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" axis="vertical" distribution="equalSpacing" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="iaJ-fo-0iz">
                                 <rect key="frame" x="0.0" y="47" width="375" height="321.33333333333331"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Evi-a0-LKP" userLabel="SearchingSideStackView">
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" horizontalCompressionResistancePriority="749" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Evi-a0-LKP" userLabel="SearchingSideStackView">
                                         <rect key="frame" x="30" y="0.0" width="315" height="50"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search City" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lpE-GU-TfQ" userLabel="SearchTextField">
-                                                <rect key="frame" x="0.0" y="0.0" width="250" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="235" height="50"/>
                                                 <color key="tintColor" name="ColorPalette"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="81e-IX-tka"/>
@@ -67,21 +67,21 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="100.66666666666667" height="95.666666666666671"/>
                                                 <color key="tintColor" name="ColorPalette"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" name="ColorPalette"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="°" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQC-QY-ohx">
                                                 <rect key="frame" x="101.66666666666666" y="0.0" width="28.333333333333343" height="95.666666666666671"/>
                                                 <color key="tintColor" name="ColorPalette"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="80"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" name="ColorPalette"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="C" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sjw-jp-37w">
                                                 <rect key="frame" x="131" y="0.0" width="52" height="95.666666666666671"/>
                                                 <color key="tintColor" name="ColorPalette"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="80"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" name="ColorPalette"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -95,8 +95,8 @@
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="Evi-a0-LKP" secondAttribute="trailing" id="1km-WK-Nf6"/>
-                                    <constraint firstItem="Evi-a0-LKP" firstAttribute="leading" secondItem="iaJ-fo-0iz" secondAttribute="leading" constant="30" id="ky7-I8-V6J"/>
+                                    <constraint firstAttribute="trailing" secondItem="Evi-a0-LKP" secondAttribute="trailing" constant="30" id="Xuw-Vk-56N"/>
+                                    <constraint firstItem="Evi-a0-LKP" firstAttribute="leading" secondItem="iaJ-fo-0iz" secondAttribute="leading" constant="30" id="dMe-IZ-9FN"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -129,7 +129,7 @@
         <image name="magnifyingglass.circle.fill" catalog="system" width="128" height="123"/>
         <image name="sun.max.fill" catalog="system" width="128" height="125"/>
         <namedColor name="ColorPalette">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.15005145967006683" green="0.16263566911220551" blue="0.21201348304748535" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
