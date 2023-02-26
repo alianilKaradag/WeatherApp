@@ -56,15 +56,47 @@
 		FB9990C229AB6C7100F2A688 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				FB9990DA29AB6DEA00F2A688 /* StoryBoards */,
+				FB9990D929AB6DE000F2A688 /* Controller */,
+				FB9990D829AB6DDA00F2A688 /* View */,
+				FB9990D729AB6DCD00F2A688 /* Model */,
 				FB9990C329AB6C7100F2A688 /* AppDelegate.swift */,
 				FB9990C529AB6C7100F2A688 /* SceneDelegate.swift */,
-				FB9990C729AB6C7100F2A688 /* ViewController.swift */,
-				FB9990C929AB6C7100F2A688 /* Main.storyboard */,
 				FB9990CC29AB6C7200F2A688 /* Assets.xcassets */,
-				FB9990CE29AB6C7200F2A688 /* LaunchScreen.storyboard */,
 				FB9990D129AB6C7200F2A688 /* Info.plist */,
 			);
 			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		FB9990D729AB6DCD00F2A688 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB9990D829AB6DDA00F2A688 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB9990C729AB6C7100F2A688 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB9990D929AB6DE000F2A688 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB9990DA29AB6DEA00F2A688 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				FB9990C929AB6C7100F2A688 /* Main.storyboard */,
+				FB9990CE29AB6C7200F2A688 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
