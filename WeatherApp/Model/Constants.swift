@@ -7,8 +7,8 @@
 
 import Foundation
 
+//MARK: - Weather Image Names
 struct Constants{
-    //MARK: - Weather Image Names
     static let bolt = "cloud.bolt.fill"
     static let drizzle = "cloud.drizzle.fill"
     static let rain = "cloud.rain.fill"

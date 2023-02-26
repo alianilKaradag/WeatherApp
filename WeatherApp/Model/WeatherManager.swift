@@ -13,15 +13,13 @@ protocol WeatherManagerDelegation{
 
 struct WeatherManager{
     
-    static let apiKey = "13f2067a6b8844924295b3ed667630f6"
+    static let apiKey = ""
     static let units = "metric"
     var url = "https://api.openweathermap.org/data/2.5/weather?units=\(units)&appid=\(apiKey)"
     var delegate : WeatherManagerDelegation?
     
     func fetchWeather(_ cityName:String){
         let fullUrl = "\(url)&q=\(cityName)"
-        print(fullUrl)
-        
         sendRequest(fullUrl)
     }
     
@@ -43,17 +41,14 @@ struct WeatherManager{
                         }
                     }
                 }
-                
             }
             
             dataTask.resume()
         }
-        
     }
     
     func parseJSON(weatherData: Data) -> WeatherDataModel?{
         let decoder = JSONDecoder()
-        
         do{
             let decodedModel = try decoder.decode(WeatherData.self, from: weatherData)
             let id = decodedModel.weather[0].id

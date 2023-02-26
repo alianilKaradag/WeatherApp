@@ -16,7 +16,6 @@ class WeatherViewController: UIViewController, UITextFieldDelegate, WeatherManag
     
     var weatherManager = WeatherManager()
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
