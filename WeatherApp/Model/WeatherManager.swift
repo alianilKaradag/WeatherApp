@@ -19,11 +19,15 @@ struct WeatherManager{
     var delegate : WeatherManagerDelegation?
     
     func fetchWeather(_ cityName:String){
+        let cityName = cityName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
         let fullUrl = "\(url)&q=\(cityName)"
         sendRequest(fullUrl)
     }
     
     func sendRequest(_ fullUrl: String){
+        //let fullUrl = fullUrl.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
+        
+        
         if let url = URL(string: fullUrl){
             let urlSession = URLSession(configuration: .default)
             let dataTask = urlSession.dataTask(with: url) { data, response, error in
