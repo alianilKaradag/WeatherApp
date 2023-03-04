@@ -1,5 +1,7 @@
 # WeatherApp
 
+◆ Responsive Design
+
 ◆ OpenWeather API
 
 ◆ UIKit-StoryBoard
