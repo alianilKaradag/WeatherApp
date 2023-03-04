@@ -14,4 +14,4 @@
 
 --------------------------------------------------------------------------------------
 
-![HorizontalLight](../master/WeatherApp/ScreenShots/HorizantalLight.png)
+![HorizontalLight](../master/WeatherApp/ScreenShots/HorizontalLight.png)
