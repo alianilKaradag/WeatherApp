@@ -1,5 +1,8 @@
 # WeatherApp
 
+◆ OpenWeather API
+◆ UIKit-StoryBoard
+
 --------------------------------------------------------------------------------------
 
 ![VerticalDark](../master/WeatherApp/ScreenShots/VerticalDark.png)
