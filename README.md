@@ -2,4 +2,4 @@
 
 --------------------------------------------------------------------------------------
 
-![Giris](../master/ScreenShots/HorizontalDark.png)
+![Giris](../master/WeatherApp/ScreenShots/HorizontalDark.png)
