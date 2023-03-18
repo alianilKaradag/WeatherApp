@@ -6,7 +6,7 @@
 
 ◆ UIKit-StoryBoard
 
-<img src="https://github.com/alianilKaradag/WeatherApp/blob/master/weather.gif" width="1024">
+<img src="https://github.com/alianilKaradag/WeatherApp/blob/master/weather.gif" width="256">
 
 --------------------------------------------------------------------------------------
 
