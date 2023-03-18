@@ -8,6 +8,7 @@
 
 <img src="https://github.com/alianilKaradag/WeatherApp/blob/master/weather.gif" width="256">
 
+Screen Shoots
 --------------------------------------------------------------------------------------
 
 ![VerticalLight](../master/WeatherApp/ScreenShots/VerticalLight.png)
