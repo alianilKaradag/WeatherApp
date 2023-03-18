@@ -6,6 +6,8 @@
 
 ◆ UIKit-StoryBoard
 
+<img src="https://github.com/alianilKaradag/alianilKaradag/blob/main/giphy-2.gif" width="1024">
+
 --------------------------------------------------------------------------------------
 
 ![VerticalLight](../master/WeatherApp/ScreenShots/VerticalLight.png)
