@@ -72,13 +72,13 @@
 		FB9990C229AB6C7100F2A688 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				FBD2D3A729B33D7E001CF6EC /* ScreenShots */,
+				FB9990C329AB6C7100F2A688 /* AppDelegate.swift */,
+				FB9990C529AB6C7100F2A688 /* SceneDelegate.swift */,
 				FB9990CE29AB6C7200F2A688 /* LaunchScreen.storyboard */,
 				FB9990D929AB6DE000F2A688 /* Controller */,
 				FB9990D829AB6DDA00F2A688 /* View */,
 				FB9990D729AB6DCD00F2A688 /* Model */,
-				FB9990C329AB6C7100F2A688 /* AppDelegate.swift */,
-				FB9990C529AB6C7100F2A688 /* SceneDelegate.swift */,
+				FBD2D3A729B33D7E001CF6EC /* ScreenShots */,
 				FB9990CC29AB6C7200F2A688 /* Assets.xcassets */,
 				FB9990D129AB6C7200F2A688 /* Info.plist */,
 			);
