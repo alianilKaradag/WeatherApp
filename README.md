@@ -8,6 +8,8 @@ A simple yet useful app that shows the current weather conditions.
 
 ◆ UIKit-StoryBoard
 
+◆ Support for local alphabets
+
 <img src="https://github.com/alianilKaradag/WeatherApp/blob/master/weather.gif" width="256">
 
 Screen Shots
