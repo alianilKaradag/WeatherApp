@@ -1,5 +1,7 @@
 # WeatherApp
 
+A simple yet useful app that shows the current weather conditions.
+
 ◆ Responsive Design
 
 ◆ OpenWeather API
