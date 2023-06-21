@@ -1,10 +1,14 @@
 # WeatherApp
 
+A simple yet useful app that shows the current weather conditions.
+
 ◆ Responsive Design
 
 ◆ OpenWeather API
 
 ◆ UIKit-StoryBoard
+
+◆ Support for local alphabets
 
 <img src="https://github.com/alianilKaradag/WeatherApp/blob/master/weather.gif" width="256">
 
